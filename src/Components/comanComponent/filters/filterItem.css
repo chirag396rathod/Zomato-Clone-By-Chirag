@@ -1,0 +1,18 @@
+.icons img{
+    width: 16px;
+}
+.filterItem{
+    padding: 8px;
+    background: var(--background-color);
+    color: var(--filter-color);
+    border: 1px solid var(--grey);
+    border-radius: 8px;
+    margin: 10px 10px 10px 0;
+}
+.filterItem:hover,
+.filterItem:active{
+    background-color: var(--inActiveColor);
+}
+.filterTitle{
+    text-align: center;
+}

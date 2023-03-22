@@ -1,0 +1,33 @@
+footer {
+  background-color: #f8f8f8;
+  padding: 48px 0px 22px;
+}
+footer .header img {
+  width: 132px;
+  height: 28px;
+  margin-bottom: 30px;
+}
+.bottom-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px 0px 1.2rem;
+}
+.link {
+  font-size: 15px;
+  color: rgb(105, 105, 105);
+  margin: 0.5rem 0px;
+  cursor: pointer;
+}
+.info {
+  font-size: 14px;
+  color: rgb(79, 79, 79);
+  margin-top: 2.3rem;
+  border-top: 0.5px solid rgb(79, 79, 79);
+  padding-top: 1rem;
+}

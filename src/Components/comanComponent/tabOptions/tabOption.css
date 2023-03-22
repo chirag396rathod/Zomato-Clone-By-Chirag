@@ -1,0 +1,29 @@
+.tabOption{
+    box-shadow: rgb(232 232 232) 0px -0.5px 0px inset;
+}
+.tab-item{
+    margin-right: 24px;
+    padding: 12px 12px 10px 12px;
+}
+.tabImg{
+    width: 30px;
+    height: 30px;
+}
+.tabName{
+    font-size:  20px;
+    font-weight: 50 0;
+    margin-left: 10px;
+    color: var(--inActiveText);
+}
+.tab-img-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%; 
+    background-color: var(--inActiveColor);
+}
+.activeTab{
+    border-bottom: 2px solid var(--zomato-red);
+}
+.activeTab .tabName{
+    color: var(--zomato-red);
+}

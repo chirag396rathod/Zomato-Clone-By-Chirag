@@ -1,0 +1,20 @@
+.deliveryitem-cover{
+    width:  260px;
+    height: 190px;
+    background-color: var(--background-color);
+    box-sizing: var(--collectionShadow);
+}
+.deliveryitem-cover img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.deliveryitemText{
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    color: var();
+    overflow: hidden;
+    margin: 6px;
+}

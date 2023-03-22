@@ -1,0 +1,35 @@
+@import './root.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.max-width{
+    max-width: 1100px;
+    margin: auto;
+}
+.absolute-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cur-po{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.collectionTitle{
+    font-size: 30px;
+    color: var(--heading-color);
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+.slick-next::before,
+.slick-prev::before{
+    background-color: var(--grey);
+    color: var(--background-color);
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 5px -1px, rgb(0 0 0 / 14%) 0px 6px 10px 0px, rgb(0 0 0 / 12%) 0px 1px 18px 0px;
+    border-radius: 50%;
+}
